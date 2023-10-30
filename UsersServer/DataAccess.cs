@@ -49,7 +49,7 @@ namespace UsersServer
             {
                 cmd.Parameters.Add("@CategoryId", SqlDbType.Int).Value = CategoryId;
                 cmd.Parameters.Add("@ProductName", SqlDbType.VarChar,20).Value = ProductName;
-                cmd.Parameters.Add("@ProductPrice", SqlDbType.Int).Value = ProductPrice;
+                cmd.Parameters.Add("@ProductPrice", SqlDbType.Float).Value = ProductPrice;
                 cmd.Parameters.Add("@ProductDescription", SqlDbType.VarChar,100).Value = ProductDescription;
                 cmd.Parameters.Add("@ProductImage", SqlDbType.VarChar,50).Value = ProductImage;
 
